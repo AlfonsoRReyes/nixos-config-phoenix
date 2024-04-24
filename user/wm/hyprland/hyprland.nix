@@ -248,8 +248,10 @@
        xwayland {
          force_zero_scaling = true
        }
-
-       env = WLR_DRM_DEVICES,/dev/dri/card2:/dev/dri/card1
+      
+       #####################################################################################
+       ## comment out next line
+       # env = WLR_DRM_DEVICES,/dev/dri/card2:/dev/dri/card1
        env = QT_QPA_PLATFORMTHEME,qt5ct
 
        input {
